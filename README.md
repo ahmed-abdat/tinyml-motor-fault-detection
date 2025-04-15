@@ -26,23 +26,6 @@ ESP32-based fault detection system for rotating machines using vibration analysi
 └── requirements.txt   # Python dependencies
 ```
 
-## Dataset
-
-This project uses the ["Vibration Faults Dataset for Rotating Machines"](https://www.kaggle.com/datasets/sumairaziz/vibration-faults-dataset-for-rotating-machines) from Kaggle. The dataset includes:
-
-- **Sensor Used**: SG-Link tri-axial accelerometer sensor by MICROSTRAIN Corporation
-- **Sampling Rate**: 679 samples per second for each axis
-- **Working States**:
-  - Normal state
-  - Cracking state
-  - Offset pulley state
-  - Wear state
-- **Data Collection**: Conducted at Mechanical Vibration Laboratory, MED, UET Taxila
-
-Please cite the following paper when using this dataset:
-
-> M. U. Khan, M. A. Imtiaz, S. Aziz, Z. Kareem, A. Waseem and M. A. Akram, "System Design for Early Fault Diagnosis of Machines using Vibration Features," 2019 International Conference on Power Generation Systems and Renewable Energy Technologies (PGSRET)
-
 ## Getting Started
 
 ### Prerequisites
