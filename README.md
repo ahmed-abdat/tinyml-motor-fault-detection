@@ -1,6 +1,6 @@
 # Real-Time Vibration-Based Fault Detection for Rotating Machinery Using TinyML
 
-> Master's thesis project (PFE) in Electronics, Electrical Engineering and Automation at Faculty of Sciences of Bizerte
+> Master's project (PFE) in Electronics, Electrical Engineering and Automation at Faculty of Sciences of Bizerte
 
 ## Project Overview
 
