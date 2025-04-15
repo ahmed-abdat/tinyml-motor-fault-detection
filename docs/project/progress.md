@@ -1,18 +1,18 @@
-# Rotating Machine Fault Detection using TinyML - Project Progress
+# Real-Time Vibration-Based Fault Detection for Rotating Machinery Using TinyML - Project Progress
 
 ## Project Overview
 
-- **Title**: Caractérisation des pannes dans les moteurs rotatifs utilisant TinyML
+- **Title**: Real-Time Vibration-Based Fault Detection for Rotating Machinery Using TinyML
 - **Student**: Ahmed Abdellahi Abdat
 - **Institution**: Faculty of Sciences of Bizerte
 - **Program**: Master's in Electronics, Electrical Engineering and Automation
 - **Start Date**: April 2025
-- **Target Completion**: [Insert target completion date]
+- **Target Completion**: September 2025
 
 ## Dataset Information
 
-- **Source**: Vibration Faults Dataset for Rotating Machines
-- **Citation**: Kafeel A, Aziz S, Awais M, Khan MA, Afaq K, Idris SA, Alshazly H, Mostafa SM. An Expert System for Rotating Machine Fault Detection Using Vibration Signal Analysis. Sensors. 2021; 21(22):7587. https://doi.org/10.3390/s21227587
+- **Source**: Vibration Faults Dataset for Rotating Machines (Kaggle)
+- **Citation**: M. U. Khan, M. A. Imtiaz, S. Aziz, Z. Kareem, A. Waseem and M. A. Akram, "System Design for Early Fault Diagnosis of Machines using Vibration Features," 2019 International Conference on Power Generation Systems and Renewable Energy Technologies (PGSRET)
 - **Content**:
   - Normal samples: 103 signals (5 seconds each @ 1000Hz)
   - Faulty samples: 117 signals (5 seconds each @ 1000Hz)
@@ -24,11 +24,11 @@
 
 **Status**: In Progress ⏳
 
-- [x] Convert .mat files to CSV format
+- [x] Convert dataset to appropriate format
 - [ ] Analyze signal characteristics
-- [ ] Visualize samples from both classes
+- [ ] Visualize samples from all states
 - [ ] Implement EMD preprocessing
-- [ ] Calculate statistics for both classes
+- [ ] Calculate statistics for each state
 - [ ] Evaluate and document distinguishing features
 
 ### Phase 2: Edge Impulse Project Setup
@@ -98,40 +98,27 @@
 
 ## Current Focus
 
-[This section will be updated regularly with current focus areas]
-
 - Understanding the dataset structure and characteristics
 - Implementing initial visualization and analysis
 - Setting up Edge Impulse project
 
 ## Challenges & Solutions
 
-[This section will track challenges encountered and their solutions]
-
 | Date | Challenge | Solution | Status |
 | ---- | --------- | -------- | ------ |
 |      |           |          |        |
 
-## References
-
-1. Kafeel A, Aziz S, Awais M, Khan MA, Afaq K, Idris SA, Alshazly H, Mostafa SM. An Expert System for Rotating Machine Fault Detection Using Vibration Signal Analysis. Sensors. 2021; 21(22):7587. https://doi.org/10.3390/s21227587
-2. Edge Impulse Documentation: https://docs.edgeimpulse.com/
-3. ESP32 Technical Reference Manual: https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf
-
 ## Weekly Updates
-
-[This section will contain weekly progress updates]
 
 ### Week 1 (Current)
 
-- Acquired and explored dataset
-- Converted .mat files to CSV format
-- Created project tracking structure
+- Acquired dataset from Kaggle
+- Created project structure
+- Set up GitHub repository
 - Planning initial data analysis
 
 ### Next Steps
 
 - Implement signal visualization and analysis
-- Explore EMD implementation
 - Set up Edge Impulse project
 - Upload initial dataset to Edge Impulse

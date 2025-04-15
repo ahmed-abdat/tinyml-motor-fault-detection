@@ -1,6 +1,6 @@
-# TinyML Rotating Machine Fault Detection
+# Real-Time Vibration-Based Fault Detection for Rotating Machinery Using TinyML
 
-> Master's thesis project in Electronics, Electrical Engineering and Automation at Faculty of Sciences of Bizerte
+> Master's thesis project (PFE) in Electronics, Electrical Engineering and Automation at Faculty of Sciences of Bizerte
 
 ## Project Overview
 
@@ -74,7 +74,7 @@ Electronics, Electrical Engineering and Automation
 
 ## Academic Context
 
-This repository contains the implementation work for my Master's thesis project (PFE) focused on fault characterization in rotating motors using TinyML.
+This repository contains the implementation work for my Master's thesis project (PFE) focused on real-time fault detection in rotating machinery using TinyML and vibration analysis.
 
 ## License
 
