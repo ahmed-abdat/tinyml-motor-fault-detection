@@ -26,6 +26,23 @@ ESP32-based fault detection system for rotating machines using vibration analysi
 └── requirements.txt   # Python dependencies
 ```
 
+## Dataset
+
+This project uses the ["Vibration Faults Dataset for Rotating Machines"](https://www.kaggle.com/datasets/sumairaziz/vibration-faults-dataset-for-rotating-machines) from Kaggle. The dataset includes:
+
+- **Sensor Used**: SG-Link tri-axial accelerometer sensor by MICROSTRAIN Corporation
+- **Sampling Rate**: 679 samples per second for each axis
+- **Working States**:
+  - Normal state
+  - Cracking state
+  - Offset pulley state
+  - Wear state
+- **Data Collection**: Conducted at Mechanical Vibration Laboratory, MED, UET Taxila
+
+Please cite the following paper when using this dataset:
+
+> M. U. Khan, M. A. Imtiaz, S. Aziz, Z. Kareem, A. Waseem and M. A. Akram, "System Design for Early Fault Diagnosis of Machines using Vibration Features," 2019 International Conference on Power Generation Systems and Renewable Energy Technologies (PGSRET)
+
 ## Getting Started
 
 ### Prerequisites
@@ -40,7 +57,7 @@ ESP32-based fault detection system for rotating machines using vibration analysi
 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/tinyml-motor-fault-detection.git
+git clone https://github.com/ahmed-abdat/tinyml-motor-fault-detection.git
 cd tinyml-motor-fault-detection
 ```
 
@@ -84,4 +101,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Faculty of Sciences of Bizerte
 - Project Supervisor: [Dr. Khalil Jouili](https://www.researchgate.net/profile/Khalil-Jouili) - Faculty of Sciences of Bizerte
-- Dataset source: Kafeel A, et al. (2021) - An Expert System for Rotating Machine Fault Detection Using Vibration Signal Analysis
+- Dataset Authors: M. U. Khan, M. A. Imtiaz, S. Aziz, et al.
+- Dataset source: [Vibration Faults Dataset for Rotating Machines (Kaggle)](https://www.kaggle.com/datasets/sumairaziz/vibration-faults-dataset-for-rotating-machines)
