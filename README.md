@@ -6,25 +6,43 @@
 
 ESP32-based fault detection system for rotating machines using vibration analysis and TinyML. The system uses Edge Impulse for model development and deploys on ESP32 for real-time fault detection.
 
+### Performance Metrics ✨
+
+- 100% test accuracy, 97.2% training accuracy
+- 4ms inference time
+- 2.7KB RAM usage, 137.3KB Flash usage
+- Optimized for ESP32 deployment
+
 ### Key Features
 
 - Real-time vibration analysis using tri-axial accelerometer
-- TinyML model for fault detection with 95%+ accuracy
-- ESP32-based embedded deployment
+- Optimized TinyML model with perfect classification
+- Spectral analysis with advanced feature extraction
 - Comprehensive signal processing pipeline
-- Edge Impulse integration
+- Edge Impulse integration with quantization
 
 ## Project Structure
 
 ```
 .
 ├── docs/               # Documentation and research papers
-├── dataset/           # Vibration signal dataset and metadata
+├── dataset/           # Vibration signal dataset (220 samples)
 ├── edge_impulse/      # Edge Impulse model development
 ├── esp32/             # ESP32 firmware and deployment code
 ├── scripts/           # Data processing and analysis scripts
 └── requirements.txt   # Python dependencies
 ```
+
+## Implementation Status
+
+✅ Dataset Preparation & Analysis
+✅ Edge Impulse Project Setup
+✅ Feature Extraction Implementation
+✅ Model Training & Optimization
+⏳ ESP32 Deployment
+❌ Final Validation & Documentation
+
+For detailed progress, see [Project Progress](docs/project/progress.md)
 
 ## Getting Started
 
@@ -33,7 +51,7 @@ ESP32-based fault detection system for rotating machines using vibration analysi
 - Python 3.8+
 - ESP32 development board
 - Edge Impulse account
-- Tri-axial accelerometer
+- Tri-axial accelerometer (1000Hz sampling)
 
 ### Installation
 
@@ -50,20 +68,17 @@ cd tinyml-motor-fault-detection
 pip install -r requirements.txt
 ```
 
-## Development Progress
+## Documentation
 
-Track the development progress in [Project Progress](docs/project/progress.md)
+- [Edge Impulse Guide](docs/edge_impulse/README.md) - Complete implementation guide
+- [Project Progress](docs/project/progress.md) - Detailed progress tracking
+- [Dataset Info](dataset/docs/about.md) - Dataset documentation
 
-## Documentation (Coming Soon)
+Coming Soon:
 
-The following documentation is under development and will be added progressively:
-
-- Setup Instructions
+- ESP32 Deployment Guide
 - Hardware Configuration Guide
-- Signal Processing Pipeline Documentation
-- Model Development Guide
-- ESP32 Deployment Instructions
-- Performance Metrics Report
+- Performance Analysis Report
 
 ## Author
 
@@ -76,13 +91,9 @@ Electronics, Electrical Engineering and Automation
 
 This repository contains the implementation work for my Master's thesis project (PFE) focused on real-time fault detection in rotating machinery using TinyML and vibration analysis.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - Faculty of Sciences of Bizerte
-- Project Supervisor: [Dr. Khalil Jouili](https://www.researchgate.net/profile/Khalil-Jouili) - Faculty of Sciences of Bizerte
+- Project Supervisor: [Dr. Khalil Jouili](https://www.researchgate.net/profile/Khalil-Jouili)
 - Dataset Authors: M. U. Khan, M. A. Imtiaz, S. Aziz, et al.
-- Dataset source: [Vibration Faults Dataset for Rotating Machines (Kaggle)](https://www.kaggle.com/datasets/sumairaziz/vibration-faults-dataset-for-rotating-machines)
+- Dataset: [Vibration Faults Dataset (Kaggle)](https://www.kaggle.com/datasets/sumairaziz/vibration-faults-dataset-for-rotating-machines)

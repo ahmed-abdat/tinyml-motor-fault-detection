@@ -50,11 +50,6 @@ edge-impulse-sdk/
 *.eim
 *.tflite
 
-# Dataset
-dataset/raw/
-*.mat
-*.csv
-!requirements.txt
 
 # Logs and databases
 *.log
